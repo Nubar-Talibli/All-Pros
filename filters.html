@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/b509574f5a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="filters.css">
+    <title>All Pros</title>
+</head>
+<body>
+    
+    <main>
+        <!-- PART 1 -->
+        <header>
+            <!-- 01 -->
+            <img src="image/izzi.jpeg" alt="logo">
+            <!-- 02 -->
+            <div class="text">
+                <p>My Orders</p>
+                <p>Services</p>
+                <p>Help</p>
+            </div>
+            <!-- 03 -->
+            <div class="sign">
+                <img src="image/sign.jpeg" alt="search">
+                <p>Sign in</p>
+                <p class="purple">Sign up</p>
+            </div>
+        </header>
+
+        <!-- PART 2 -->
+        <div class="container">
+            <h1>All Pros</h1>
+            <div class="allPros">
+                <!-- Filters and Sorting Part -->
+                <div class="Pros">
+                    <!-- Filters -->
+                    <div class="filters">
+                        <h3>Filters</h3>
+                        <input type="radio" name="filters" id="top">
+                        <label for="top">Top pros</label><br>
+                        <input type="radio" name="filters" id="new">
+                        <label for="new">New pros</label><br>
+                        <input type="radio" name="filters" id="super">
+                        <label for="super">Supervisors</label><br>
+                        <input type="radio" name="filters" id="pros">
+                        <label for="pros">Pros</label><br>
+                    </div>
+                    <!-- Sorting -->
+                    <div class="sorting">
+                        <h3>Sorting</h3>
+                        <label for="rating">By Rating</label><br>
+                        <select id="rating">
+                            <option value="descending">Descending</option>
+                            <option value="ascending">Ascending</option>
+                        </select><br><br>
+                        <label for="tasks">By Tasks Count</label><br>
+                        <select id="tasks">
+                            <option value="ascending">Ascending</option>
+                            <option value="descending">Descending</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Cards Part -->
+                <div class="elon"></div>
+            </div>
+        </div>
+
+        <!-- PART 3 -->
+        <footer>
+            <!-- 01 -->
+            <div class="dowland">
+                <img src="image/phone.jpeg" alt="phone">
+                <!-- Dowland App -->
+                <div class="app">
+                    <h1>Download the izzi mobile app</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took</p>
+                    <div class="dowlandImage">
+                        <img src="image/app_store.png" alt="app_store">
+                        <img src="image/google_play.png" alt="google_play" class="google">
+                    </div>
+                </div>
+            </div>
+            <!-- 02 -->
+            <div class="izzi">
+                <!-- 1 -->
+                <div class="major">
+                    <img src="image/izzi.jpeg" alt="logo">
+                    <p>izzi is the major platform in Azerbaijan to request help from taskers</p>
+                </div>
+                <!-- 2 -->
+                <div class="link">
+                    <p class="black">izzi Ltd.</p>
+                    <p>Location adres</p>
+                    <p>info@izzi.com</p>
+                    <p>+994 (50) XX XXXX</p>
+                    <p>NR21465161</p>
+                </div>
+                <!-- 3 -->
+                <div class="link">
+                    <p class="black">Book a service</p>
+                    <p>Browse Services</p>
+                    <p>Find Taskers</p>
+                    <p>How does it work?</p>
+                </div>
+                <!-- 4 -->
+                <div class="link">
+                    <p class="black">Extra links</p>
+                    <p>About us</p>
+                    <p>FAQ</p>
+                    <p>Contact us</p>
+                    <p>Become a Task</p>
+                </div>
+            </div>
+            <!-- 03 -->
+            <div class="izzifooter">
+                <div class="left">
+                    <img src="image/facebook.jpeg" alt="facebook">
+                    <img src="image/twitter.jpeg" alt="twitter">
+                    <img src="image/instagram.jpeg" alt="instagram">
+                    <img src="image/youtube.jpeg" alt="youtube">
+                </div>
+                <div class="right">
+                    <p>izzi Ltd. 2021</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms and conditions</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <script src="filters.js"></script>
+
+</body>
+</html>
